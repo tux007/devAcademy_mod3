@@ -1,0 +1,240 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+}
+
+.container {
+  background-image: url(img/hero_bg.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: 50%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.logo img {
+  height: 70px;
+}
+
+.navbar div.menu a {
+  margin-right: 50px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+}
+
+.navbar div.menu a:hover {
+  text-decoration: underline;
+  color: #b33024;
+}
+
+.container button {
+  height: 40px;
+  background-color: #b33024;
+  border: 1px solid white;
+  color: white;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.container button:hover {
+  color: lightgreen;
+}
+
+.menu img {
+  margin-right: 10px;
+  height: 20px;
+}
+
+.container div.caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.caption h1 {
+  text-align: center;
+  font-size: 100px;
+  font-family: "Raleway", sans-serif;
+  margin-block-end: 0em;
+}
+.caption p {
+  font-size: 25px;
+  font-family: "Raleway", sans-serif;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+.container1 {
+  width: 100%;
+}
+
+.container1 div.heading {
+  display: flex;
+  justify-content: center;
+  color: #b33024;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+}
+
+.container1 div.images {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container1 div.image3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container1 div.image2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container1 div.image1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container1 p {
+  font-family: "Economica", sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.container2 {
+  background-image: url(img/section_our_menu_bg.jpg);
+  background-size: cover;
+  width: 100%;
+}
+.container2 div.heading1 h2 {
+  display: flex;
+  justify-content: center;
+  color: #b33024;
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  padding-top: 50px;
+}
+.tonramen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tonramen img {
+  height: 300px;
+}
+
+.heading2 {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.heading2 td {
+  padding-right: 50px;
+}
+
+.tonramen div.heading2 h2 {
+  font-family: "Economica", sans-serif;
+  font-size: 50px;
+}
+.tonramen div.heading2 table {
+  font-size: 25px;
+  font-family: "Raleway", sans-serif;
+  color: #5b695f;
+}
+
+.misoramen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.misoramen img {
+  height: 300px;
+}
+.misoramen div.heading2 h2 {
+  font-family: "Economica", sans-serif;
+  font-size: 50px;
+}
+.misoramen div.heading2 table {
+  font-size: 25px;
+  font-family: "Raleway", sans-serif;
+  color: #5b695f;
+}
+
+.shioramen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.shioramen img {
+  height: 300px;
+}
+.shioramen div.heading2 h2 {
+  font-family: "Economica", sans-serif;
+  font-size: 50px;
+}
+.shioramen div.heading2 table {
+  font-size: 25px;
+  font-family: "Raleway", sans-serif;
+  color: #5b695f;
+}
+
+.container4 {
+  width: 100%;
+}
+
+.container4 div.heading3 {
+  display: flex;
+  justify-content: center;
+  color: #b33024;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+}
+.container4 div.adress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 25px;
+}
+.container4 div.adress img {
+  height: 30px;
+  padding-right: 10px;
+}
+
+.footer {
+  background-color: #0a141e;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 144px;
+}
+
+.footer-logo {
+  height: 44px;
+}
+.footer-social {
+  height: 44px;
+  width: 44px;
+}
